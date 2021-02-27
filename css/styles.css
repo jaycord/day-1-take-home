@@ -24,3 +24,18 @@ footer{
     color: white;
     text-align: center;
 }
+@media only screen  and (max-width: 1024px){
+    .top{
+        background-color: red;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .top{
+        background-color: salmon;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .top{
+        background-color: springgreen;
+    }
+}
